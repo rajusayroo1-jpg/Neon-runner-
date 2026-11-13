@@ -18,6 +18,7 @@ canvas{display:block;width:100%;height:100%}
 #gar{justify-content:flex-start;padding-top:calc(env(safe-area-inset-top,0px) + 36px);background:linear-gradient(rgba(11,16,32,.96),rgba(11,16,32,.92) 56%,transparent 60%)}
 .mt{position:fixed;right:10px;top:calc(env(safe-area-inset-top,0px) + 86px);width:38px;height:38px;border-radius:50%;background:rgba(38,48,90,.8);display:flex;align-items:center;justify-content:center;font-size:19px}
 </style></head><body>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.unregister()});if(window.caches)caches.keys().then(function(k){k.forEach(function(n){caches.delete(n)})})})}</script>
 <canvas id="c"></canvas><canvas id="c3"></canvas>
 <div id="menu" class="ov"><h1>Street Racer</h1><p>Your car. Real racing.</p>
 <div class="b" id="bc">Circuit Race</div><div class="b" id="bd">Drag Race</div><div class="b s" id="bg">Garage</div></div>
